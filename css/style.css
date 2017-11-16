@@ -1,0 +1,132 @@
+/*Bodoni 72 for font for brand name & headings*/
+
+* {
+	box-sizing: border-box;
+}
+
+.header {font-family: "Bodoni MT", Didot, "Didot LT STD";
+}
+
+
+.navbar {
+	font-family: "Bodoni MT", Didot, "Didot LT STD";
+	font-size: 1.2em;
+	padding: 5px 20px;
+	justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+
+.navbar.navbar-expand-md {
+	background-color: #1f1b38;
+}
+.nav-toggle {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.nav-list-collapsed {
+	display: none;
+}
+
+.jumbotron {
+    background-color: #e1dff0; 
+}
+
+.page-header {
+    font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2em;
+}
+.col-4{
+    font-size: 20px;
+    font-family: "Bodoni MT", Didot, "Didot LT STD";
+}
+.footer{
+    font-size: 16px !important;
+    font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bold;
+    text-align:center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    
+}
+.fa-heart{
+    color: red;
+    font-size: 16px !important;
+} 
+    
+
+
+/* masonery css */
+
+.masonry-item {
+    width: 20%; }
+/* end masonery css */
+
+
+/* ------------------------------
+      CAROUSEL STYLING
+------------------------------ */
+#carouselOfPets {
+    width: 85%;
+    margin: auto;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+
+.carousel-control-prev {
+    margin-left: -5%;
+}
+
+.carousel-control-next {
+    margin-right: -5%;
+}
+/*---------------------------- 
+     END CAROUSEL STYLING 
+------------------------------*/ 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: background-color:pink;
+    display: table;
+    clear: both;
+
+}
+
+.petrait {
+    background-image: url("sadie.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+     
+}
+
+.form {
+    display: inline-block;
+    text-align: center;
+    font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.flex-container {
+    background-color: #e1dff0;
+}
