@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>DOGUE</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/normalize.css" type="text/css">
  		<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -31,44 +32,87 @@
         </nav>
         
       
-		<div class="flex-container">
+	<div class="flex-container">
+            <div class1="petrait">
+                <img src="images/sadieInFrame2.png" alt="Dog in Frame">
+            </div><! --.petrait -->
+            <div class2="outfits">
+                <img class="draggable" src="images/pinktop.png" alt="pink top">
+                <img class="draggable" src="images/sunglasses.png" alt="sunglasses">
+                <img class="draggable" src="images/coat.png" alt="coat">
+            </div><! --.petrait -->
+            <div class3="accessories">
+                <iclass="draggable" src="images/pirateJacket.png" alt="red coat">
+                    <img class="draggable" src="images/tophat.png" alt="tophat">
+                    <img class="draggable" src="images/tiara.png" alt="tiara">
+                    <img class="draggable" src="images/scarf.png" alt="scarf">
+                    <img class="draggable" src="images/flower1.png" alt="hibiscus flower">
+                    <img class="draggable" src="images/flower2.png" alt="pansie flower">
+                    <img class="draggable" src="images/handbag.png" alt="handbag">
+            </div><! --.accessories -->
+    </div><! --.flex-container -->
+  
+        <div class="container-fluid">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+            </div><!-- form-group --> 
+            
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+            </div><!-- form-group -->
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+            </div><!-- form-group -->
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form><!-- form-inline --> 
+        
+        <form class="form-inline">
+            <div class="form-group">
+            Did you enjoy the game?
+            </div><!-- form-group -->
+        
+            <div class="form-group">
+            <button>Yes</button> <button>No</button>
+            </div><!-- form-group -->
+        
+            
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#submit">
+        Submit
+        </button>
+        </form>
+    
+      </div><!-- container-fluid --> 
+      
+    
+        <!-- Modal -->
+        <div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-labelledby="submitformLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="submitformLabel">Thank you!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div><! --.modal-header -->
+                    <div class="modal-body">
+                        <p>Look for  our next "Dress your Pet" site!</p>
+                    </div><! --.modal-body -->
+                </div><! --.modal-content -->
+            </div><! --.modal-dialog -->
+        </div><! --.modal-fade -->
+        
 
-  <div class1="petrait">
-			<img src="images/sadieInFrame2.png" alt"Dog in Frame">
-<div>
- <form>
- 
-  First Name:<br>
-  <input type="text" id="input-1"><br>
-    </form>
-  <form>
-  Hello:<br>
-  <input type="text" id="input-2"><br>
-  </form>
-  <form>
-  Did you enjoy the game?<br>
-  <input type="text" name="firstname"><br>
-  </form>
-  <form>
-  <button> Yes</button>         <button>    No</button>
-</form>
-</form>
-</div>
-</div>
-  <div class2="outfits">
-			<img class="draggable" src="images/tophat.png" alt"tophat">
-		<img  class="draggable" src="images/sunglasses.png" alt"sunglasses">
-		<img  class="draggable" src="images/coat.png" alt"coat">
-  </div>
-   <div class3="accessories">
-      <img  class="draggable" src="images/pirateJacket.png" alt" red coat">
-		<img  class="draggable" src="images/tiara.png" alt" tiara">
-  </div>
    <div class="footer">
       <i class="fa fa-heart" aria-hidden="true"></i> Love your pet.<i class="fa fa-heart" aria-hidden="true"> </i>
-      Control the pet population by having your pet Spay or Neutered <i class="fa fa-heart" aria-hidden="true"></i>
+      Control the pet population by having your pet spayed or neutered <i class="fa fa-heart" aria-hidden="true"></i>
   </div>
-
+  
+ 
  
   
  <script src="https://code.jquery.com/jquery-3.2.1.min.js"

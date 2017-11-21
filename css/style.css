@@ -33,7 +33,7 @@
 }
 
 .jumbotron {
-    background-color: #e1dff0; 
+    background-color: #F2F1F8; 
 }
 
 .page-header {
@@ -119,14 +119,46 @@
      
 }
 
-.form {
-    display: inline-block;
-    text-align: center;
-    font-family: "Bodoni MT", Didot, "Didot LT STD";
-    font-weight: bold;
-    font-size: 25px;
-}
+
+    
+
 
 .flex-container {
-    background-color: #e1dff0;
+    padding: 100px 50px 20px 50px;
+    background-color: #F2F1F8;
+}
+
+.container-fluid {
+    padding: 70px;
+    background-color: #F2F1F8;
+}
+.form-group {
+    padding: 0 20px 20px 0;
+     font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bold;
+    font-size:20px;
+}
+.modal-header{ font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bold;
+    font-size:20px;
+    
+}
+.modal-body{
+   font-family: "Bodoni MT", Didot, "Didot LT STD";
+    font-weight: bold;
+    font-size:20px;
+}
+
+    
+}
+label {
+    margin-right: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+button.btn.btn-dark  {
+    margin-bottom: 20px;
 }
